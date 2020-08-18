@@ -7,7 +7,7 @@ let movieResults = document.getElementById('movieResults');
 searchMovie.addEventListener('click', () => {
     console.log(searchQuery.value);
 
-    fetch(`http://www.omdbapi.com/?s=${searchQuery.value}&apikey=d7c10188`)
+    fetch(`https://www.omdbapi.com/?s=${searchQuery.value}&apikey=d7c10188`)
         .then(
             response => {
                 if (response.status !== 200) {
@@ -58,7 +58,7 @@ searchMovie.addEventListener('click', () => {
 
 function showDetails(title) {
     console.log('anchor onclick', title);
-    fetch(`http://www.omdbapi.com/?t=${title}&apikey=d7c10188`)
+    fetch(`https://www.omdbapi.com/?t=${title}&apikey=d7c10188`)
         .then(
             response => {
                 return response.json();
