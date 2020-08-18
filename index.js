@@ -86,6 +86,7 @@ function showDetails(title) {
                             <p class="card-text"><b>Duration:</b> ${data.Runtime}</p>
                             <p class="card-text"><b>Director:</b> ${data.Director}</p>
                             <p class="card-text"><b>Writer:</b> ${data.Writer}</p>
+                            <p class="card-text"><b>Cast:</b> ${data.Actors}</p>
                             <p class="card-text"><b>Awards:</b> ${data.Awards}</p>
                             <p class="card-text"><b>Plot:</b> ${data.Plot}</p>
                             <p class="card-text"><b>IMDB Rating:</b> ${data.imdbRating}</p>
